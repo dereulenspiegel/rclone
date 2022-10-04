@@ -73,8 +73,8 @@ github.com/Max-Sum/base32768 v0.0.0-20191205131208-7937843c71d5/go.mod h1:C8yoIf
 github.com/Microsoft/go-winio v0.5.0/go.mod h1:JPGBdM1cNvN/6ISo+n8V5iA4v8pBzdOpzfwIujj1a84=
 github.com/Microsoft/go-winio v0.5.1 h1:aPJp2QD7OOrhO5tQXqQoGSJc+DjDtWTGLOmNyAm6FgY=
 github.com/Microsoft/go-winio v0.5.1/go.mod h1:JPGBdM1cNvN/6ISo+n8V5iA4v8pBzdOpzfwIujj1a84=
-github.com/Mikubill/gofakes3 v0.0.1 h1:vxWQJL0jBQjHgkDfegmmJNIGF9SuYqQSfXZh6fNbSes=
-github.com/Mikubill/gofakes3 v0.0.1/go.mod h1:ITCkz1E8brYoeN+VI18DjaYpRvqsEw8E/PJafhbiUGU=
+github.com/Mikubill/gofakes3 v0.0.2 h1:mo+DeyNPkPXYohTSr9BTqUuyr6tVb7i2Br+J/WNRfwk=
+github.com/Mikubill/gofakes3 v0.0.2/go.mod h1:ITCkz1E8brYoeN+VI18DjaYpRvqsEw8E/PJafhbiUGU=
 github.com/OneOfOne/xxhash v1.2.2/go.mod h1:HSdplMjZKSmBqAxg5vPj2TmRDmfkzw+cTzAElWljhcU=
 github.com/ProtonMail/go-crypto v0.0.0-20220730123233-d6ffb7692adf h1:aFFtnGZ6/2Qlvx80yxA2fFSYDQWTFjtKozQKB36A3/A=
 github.com/ProtonMail/go-crypto v0.0.0-20220730123233-d6ffb7692adf/go.mod h1:UBYPn8k0D56RtnR8RFQMjmh4KrZzWJ5o7Z9SYjossQ8=
