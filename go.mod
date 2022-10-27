@@ -9,7 +9,7 @@ require (
 	github.com/Azure/azure-sdk-for-go/sdk/storage/azblob v1.0.0
 	github.com/Azure/go-ntlmssp v0.0.0-20221128193559-754e69321358
 	github.com/Max-Sum/base32768 v0.0.0-20230304063302-18e6ce5945fd
-	github.com/Mikubill/gofakes3 v0.0.3-0.20221022061830-4a3b2e85d9ad
+	github.com/Mikubill/gofakes3 v0.0.3-0.20221027140832-137f425d67c2
 	github.com/Unknwon/goconfig v1.0.0
 	github.com/a8m/tree v0.0.0-20230208161321-36ae24ddad15
 	github.com/aalpar/deheap v0.0.0-20210914013432-0cc84d79dec3
