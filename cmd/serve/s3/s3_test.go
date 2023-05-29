@@ -15,7 +15,6 @@ import (
 	"time"
 
 	_ "github.com/rclone/rclone/backend/local"
-	"github.com/rclone/rclone/cmd/serve/httplib/httpflags"
 	"github.com/rclone/rclone/cmd/serve/servetest"
 	"github.com/rclone/rclone/fs"
 	"github.com/rclone/rclone/fs/config/configmap"
@@ -35,7 +34,7 @@ const (
 func TestS3(t *testing.T) {
 	// Configure and start the server
 	start := func(f fs.Fs) (configmap.Simple, func()) {
-		httpflags.Opt.ListenAddr = endpoint
+		//httpflags.Opt.ListenAddr = endpoint
 		keyid := RandString(16)
 		keysec := RandString(16)
 		serveropt := &Options{

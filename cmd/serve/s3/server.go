@@ -7,10 +7,10 @@ import (
 	"net/http"
 
 	"github.com/Mikubill/gofakes3"
-	"github.com/go-chi/chi/v5"
+	chi "github.com/go-chi/chi/v5"
 	"github.com/rclone/rclone/fs"
 	"github.com/rclone/rclone/fs/hash"
-	"github.com/rclone/rclone/lib/http/auth"
+	httplib "github.com/rclone/rclone/lib/http"
 	"github.com/rclone/rclone/vfs"
 	"github.com/rclone/rclone/vfs/vfsflags"
 )
@@ -23,6 +23,8 @@ type Options struct {
 	hashType       hash.Type
 	authPair       []string
 	noCleanup      bool
+	Auth           httplib.AuthConfig
+	Http           httplib.Config
 }
 
 // Server is a s3.FileSystem interface
@@ -60,9 +62,6 @@ func newServer(ctx context.Context, f fs.Fs, opt *Options) *Server {
 
 // Bind register the handler to http.Router
 func (w *Server) Bind(router chi.Router) {
-	if m := auth.Auth(auth.Opt); m != nil {
-		router.Use(m)
-	}
 
 	router.Handle("/*", w.handler)
 }
